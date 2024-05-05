@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        //splash
         Handler(Looper.getMainLooper()).postDelayed({
             val intent= Intent(this, MainActivity2::class.java)
             startActivity(intent)
